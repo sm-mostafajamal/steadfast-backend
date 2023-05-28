@@ -7,6 +7,7 @@ const { errorHandler } = require("./utils/middleware");
 
 const PORT = process.env.PORT;
 
+app.use(express.static("build"));
 app.use(express.json());
 app.use(cors());
 app.use("/api/jobs", jobsRouter);
