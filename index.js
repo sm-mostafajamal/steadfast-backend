@@ -13,4 +13,6 @@ app.use(cors());
 app.use("/api/jobs", jobsRouter);
 app.use(errorHandler);
 
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+app.listen(PORT || 3001, () =>
+  console.log(`Server is running on port ${PORT}`)
+);
