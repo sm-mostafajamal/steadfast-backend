@@ -5,8 +5,7 @@
 ## Tech Used: JavaScript, Express.js, Node.js, MongoDB, Mongoose, JWT, ESLint, MVC Structure
 
 ## Optimizations
-
-My learning was focused on making a simple UI and a smooth UX, creating MERN stack based fullstack wesite.
+Utilized callback functions in the server to try and build a modular and scalable backend. Through this I learned , how to effectively simplify backend routes into independent functions
 
 ## Lessons Learned:
 
