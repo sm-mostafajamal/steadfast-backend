@@ -13,7 +13,7 @@ app.use(express.static("build"));
 app.use(express.json());
 app.use(cors());
 app.use("/api/jobs", jobsRouter);
-app.use("api/users", usersRouter);
+app.use("/api/users", usersRouter);
 app.use(errorHandler);
 
 app.listen(PORT || 3001, () =>
